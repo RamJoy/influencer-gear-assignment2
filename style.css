@@ -1,3 +1,42 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Montserrat:wght@400;600;700&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.navproducts{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+navproducts h3{
+    font-family: 'Poppins', sans-serif;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    padding: 0 5px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+.navigation li a:hover{
+    background-color: blanchedalmond;
 }
